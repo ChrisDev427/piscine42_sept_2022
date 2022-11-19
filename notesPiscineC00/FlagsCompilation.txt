@@ -1,0 +1,6 @@
+
+Les flags de compilation permettent de sortir plus d'erreurs a la compilation
+
+-Wall -Werror -Wextra 
+
+Exemple de compilation : -Wall -Werror -Wextra main.c

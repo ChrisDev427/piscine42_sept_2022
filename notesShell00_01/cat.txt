@@ -1,0 +1,23 @@
+
+
+------ commande cat ---------------
+
+Ajouter texte dans un fichier : 
+
+Cat << FIN >> [nom du fichier cible]
+[Ecrire le texte a ajouter]
+FIN
+
+--------- cat [>]-[|] res.txt ----------
+
+Ex avec > : ls > rest.txt [redirige la sortie de 'ls' vers l'entrée du fichier 'res.txt' et crée le fichier 'res.txt']
+
+Ex avec | : ls | grep txt [ '|' redirige la sortie de ls à l'entrée de la fonction grep
+Le ls affiche les lignes contenant 'txt' du dossier courant
+
+
+
+
+Ex : cat batman.txt | grep Joker  ->  affiche les lignes contenant le mot 'Joker'
+
+Ex : cat batman.txt | grep Joker | wc -l  -> affiche le nombre de lignes contenant 'Joker'

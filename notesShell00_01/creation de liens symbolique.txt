@@ -1,0 +1,16 @@
+
+----- creation de liens symbolique -------- 
+
+ln -s [fichier cible(existant)] [nom fichier symbolique]
+
+---- changer date sans modifier date du lien symbolique ---
+
+touch -ht [nomFichierCible]
+
+
+--- changer permissions sur liens symbolique ----
+
+chmod -h [arguments] [fichierCible]
+
+
+

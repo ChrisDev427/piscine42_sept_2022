@@ -1,0 +1,34 @@
+Exemple commande 'sed'
+
+[chercher et remplacer]
+
+sed 's/[caract. a substituer]/[caract. de remplacement]/'
+
+
+Par défaut, le remplacement de motifRecherché par motifSubstitut n'a lieu que pour la première occurrence du motif cherché pour la ligne en cours de lecture. Pour que le remplacement soit effectué pour toutes les occurrences de chaque ligne, il faut terminer la fonction par g  :
+
+
+sed 's/[caract. a substituer]/[caract. de remplacement]/g'
+
+
+
+[supprimer]
+
+L'effacement de lignes contenant un certain motif (expression régulière) est possible. Le motif à rechercher doit être balisé par 2 symboles « / ». Par exemple,
+
+sed '/^#/d'
+
+--------------------------------------------------------------------------------
+Il peut parfois être utile d'afficher une ligne sur deux d'un fichier.
+--------------------------------------------------------------------------------
+
+
+
+À partir de la première ligne (lignes impaires)
+sed -n 'p;n'
+
+
+
+
+À partir de la deuxième ligne (lignes paires)
+sed -n 'n;p'

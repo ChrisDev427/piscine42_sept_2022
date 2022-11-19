@@ -1,0 +1,6 @@
+ 
+find .  -> recherche [.] dans le repertoire courant
+
+find . -name test.txt. -> recherche le fichier test.txt dans le rep courant
+
+find . -type d. -> recherche les fichiers de types directory

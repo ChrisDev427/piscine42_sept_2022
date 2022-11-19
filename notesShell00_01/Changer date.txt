@@ -1,0 +1,5 @@
+------ Changer date -------------------
+
+touch -t [date] fichier cible
+
+

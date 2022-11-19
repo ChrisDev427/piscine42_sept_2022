@@ -1,0 +1,9 @@
+
+----- clef ssh --------------------
+
+cat ~/.ssh/id_rsa [private key]
+
+cat ~/.ssh/id_rsa.pub [public key]
+
+
+

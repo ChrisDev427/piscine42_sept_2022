@@ -1,0 +1,6 @@
+
+Utilitaire permet de compter les lignes, les mots ou les caractères dans un fichier
+
+wc -l test.txt. -> compte nombre de lignes
+wc -w test.txt. -> compte nombre de mots
+wc -c test.txt. -> compte nombre de caractères

@@ -1,0 +1,5 @@
+Exemple commande 'tr'
+
+[supprimer]
+
+tr -d "element a supprimer"

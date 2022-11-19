@@ -1,0 +1,13 @@
+-------- grep -----------------------------
+
+Exemple :
+[ grep pomme test.txt ] -> recherche les lignes contenant le mot 'pomme' dans le fichier 'test.txt'
+
+[ grep pomme -i test.txt ] -> idem, mais ne prend pas la casse en compte
+
+[ grep pomme -v test.txt ] -> recherche les lignes ou ne se trouve pas le mot pomme.
+
+
+
+
+

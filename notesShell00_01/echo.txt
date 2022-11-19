@@ -1,0 +1,4 @@
+
+echo [abc] > fichier cible  -> écrit 'abc' plus retour charriot dans fichier cible
+
+echo '\c' > fichier cible  -> supprimer retour charriot dans fichier cible

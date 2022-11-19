@@ -1,0 +1,7 @@
+----- Commande tar --------
+
+tar -cf [nomFichier.tar] [fichierSource]
+
+
+Archive fichier dans un .tar
+

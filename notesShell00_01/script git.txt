@@ -1,0 +1,13 @@
+----- script git --------------------
+
+script shell qui renvoie les id des 5 derniers commit
+
+git log --format='%H' -n5
+
+script shell qui renvoie la liste des fichiers existants ignorés par
+votre dépot git actuellement présents dans votre dépot local.
+
+git status -s --ignored | grep "!!" | sed 's/!! //g'
+
+
+

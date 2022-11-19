@@ -1,0 +1,18 @@
+
+
+-------- Changer permissions -------
+
+u -> User
+g -> group
+o -> others
+a -> all
+
+r -> read
+w -> write
+x -> execution
+
+Exemple de commande :
+chmod u+w [nom du fichier cible]
+
+
+
